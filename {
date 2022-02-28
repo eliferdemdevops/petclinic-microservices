@@ -103,3 +103,49 @@ bash: syntax error near unexpected token `}'
 ]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$     }
 bash: syntax error near unexpected token `}'
 ]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$ }git push https://github.com/eliferdemdevops/petclinic-microservices
+bash: }git: command not found
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$ git push https://github.com/eliferdemdevops/petclinic-microservices.git
+Enumerating objects: 6, done.
+Counting objects:  16% (1/6)Counting objects:  33% (2/6)Counting objects:  50% (3/6)Counting objects:  66% (4/6)Counting objects:  83% (5/6)Counting objects: 100% (6/6)Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 1.41 KiB | 1.41 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+remote: 
+remote: Create a pull request for 'feature/msp-21' on GitHub by visiting:[K
+remote:      https://github.com/eliferdemdevops/petclinic-microservices/pull/new/feature/msp-21[K
+remote: 
+To https://github.com/eliferdemdevops/petclinic-microservices.git
+ * [new branch]      feature/msp-21 -> feature/msp-21
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$ git checkour [K[Kt dev
+Switched to branch 'dev'
+Your branch is ahead of 'origin/dev' by 10 commits.
+  (use "git push" to publish your local commits)
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$ git merge feature/msp-21
+Updating 2abc6fa..879977a
+Fast-forward
+ jenkins/jenkinsfile-petclinic-weekly-qa | 73 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 73 insertions(+)
+ create mode 100644 jenkins/jenkinsfile-petclinic-weekly-qa
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$ git chev[Kckoit[K[Kt[Kur[Kt release
+Switched to branch 'release'
+Your branch is ahead of 'origin/release' by 33 commits.
+  (use "git push" to publish your local commits)
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$ git merge f[Kdev
+Updating 2abc6fa..879977a
+Fast-forward
+ jenkins/jenkinsfile-petclinic-weekly-qa | 73 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 73 insertions(+)
+ create mode 100644 jenkins/jenkinsfile-petclinic-weekly-qa
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$ git push https://github.com/eliferdemdevops/petclinic-microservices.git
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/eliferdemdevops/petclinic-microservices.git
+   2abc6fa..879977a  release -> release
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$ [K[ec2-user@jenkins-server petclinic-microservices]$ [H[2J[ec2-user@jenkins-server petclinic-microservices]$ [K[ec2-user@jenkins-server petclinic-microservices]$ [K[ec2-user@jenkins-server petclinic-microservices]$ [K[ec2-user@jenkins-server petclinic-microservices]$ [K[ec2-user@jenkins-server petclinic-microservices]$ [K[ec2-user@jenkins-server petclinic-microservices]$ git add ,[K[K .
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$ git commit ,[Km- [K[K[K-m "k[Kupdated"
+[release 631b842] updated
+ 2 files changed, 106 insertions(+), 1 deletion(-)
+ create mode 100644 {
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$ git push -u origin feature/msp-21 https://github.com/eliferdemdevops/petclinic-microservices.git
+fatal: invalid refspec 'https://github.com
