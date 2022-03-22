@@ -3,37 +3,53 @@ Script started on 2022-02-27 17:58:50+0000
                     env.IMAGE_TAG_ADMIN_SERVER="${ECR_REGISTRY}/${APP_REPO_NAME}:admin-server-qa-v${MVN_VERSION}-b${BUILD_NUMBER}"
                     MVN_VERSION=sh(script:'. ${WORKSPACE}/spring-petclinic-api-gateway/target/maven-archiver/pom.properties && echo $version', returnStdout:true).trim()
                     env.IMAGE_TAG_API_GATEWAY="${ECR_REGISTRY}/${APP_REPO_NAME}:api-gateway-qa-v${MVN_VERSION}-b${BUILD_NUMBER}"
-                    MVN_VERSION=sh(script:'. ${WORKSPACE}/spring-petclinic-con]0;ec2-user@jenkins-server:~/petclinic-microservices[?1034h[ec2-user@jenkins-server petclinic-microservices]$                     MVN_VERSION=sh(script:'. ${WORKSPACE}/spring-petclinic-admin-server/target/maven-archiver/ pom.properties && echo $version', returnStdout:true).trim()
+                    MVN_VERSION=sh(script:'. ${WORKSPACE}/spring-petclinic-con]0;ec2-user@jenkins-server:~/petclinic-microservices[?1034h[ec2-user@jenkins-server petclinic-microservices]$                     MVN_VERSION=sh(script:'. ${WORKSPACE}/spring-petclinic-admin-server/target/maven-archiver/ 
+pom.properties && echo $version', returnStdout:true).trim()
 bash: syntax error near unexpected token `('
-]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     env.IMAGE_TAG_ADMIN_SERVER="${ECR_REGISTRY}/${APP_REPO_NAME}:admin-server-qa-v${MVN_VERSIO N}-b${BUILD_NUMBER}"
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     env.IMAGE_TAG_ADMIN_SERVER="${ECR_REGISTRY}/${APP_REPO_NAME}:admin-server-qa-v${MVN_VERSIO 
+N}-b${BUILD_NUMBER}"
 bash: env.IMAGE_TAG_ADMIN_SERVER=/:admin-server-qa-v-b: No such file or directory
-]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     MVN_VERSION=sh(script:'. ${WORKSPACE}/spring-petclinic-api-gateway/target/maven-archiver/p om.properties && echo $version', returnStdout:true).trim()
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     MVN_VERSION=sh(script:'. ${WORKSPACE}/spring-petclinic-api-gateway/target/maven-archiver/p 
+om.properties && echo $version', returnStdout:true).trim()
 bash: syntax error near unexpected token `('
-]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     env.IMAGE_TAG_API_GATEWAY="${ECR_REGISTRY}/${APP_REPO_NAME}:api-gateway-qa-v${MVN_VERSION} -b${BUILD_NUMBER}"
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     env.IMAGE_TAG_API_GATEWAY="${ECR_REGISTRY}/${APP_REPO_NAME}:api-gateway-qa-v${MVN_VERSION} 
+-b${BUILD_NUMBER}"
 GISTRY}/${APP_REPO_NAME}:config-server-qa-v${MVN_Vbash: env.IMAGE_TAG_API_GATEWAY=/:api-gateway-qa-v-b: No such file or directory
-]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     MVN_VERSION=sh(script:'. ${WORKSPACE}/spring-petclinic-config-server/target/maven-archiver /pom.properties && echo $version', returnStdout:true).trim()
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     MVN_VERSION=sh(script:'. ${WORKSPACE}/spring-petclinic-config-server/target/maven-archiver 
+/pom.properties && echo $version', returnStdout:true).trim()
 bash: syntax error near unexpected token `('
-]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     env.IMAGE_TAG_CONFIG_SERVER="${ECR_REGISTRY}/${APP_REPO_NAME}:config-server-qa-v${MVN_VERS ION}-b${BUILD_NUMBER}"
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     env.IMAGE_TAG_CONFIG_SERVER="${ECR_REGISTRY}/${APP_REPO_NAME}:config-server-qa-v${MVN_VERS 
+ION}-b${BUILD_NUMBER}"
 bash: env.IMAGE_TAG_CONFIG_SERVER=/:config-server-qa-v-b: No such file or directory
-]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     MVN_VERSION=sh(script:'. ${WORKSPACE}/spring-petclinic-customers-service/target/maven-arch iver/pom.properties && echo $version', returnStdout:true).trim()
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     MVN_VERSION=sh(script:'. ${WORKSPACE}/spring-petclinic-customers-service/target/maven-arch 
+iver/pom.properties && echo $version', returnStdout:true).trim()
 bash: syntax error near unexpected token `('
-]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     env.IMAGE_TAG_CUSTOMERS_SERVICE="${ECR_REGISTRY}/${APP_REPO_NAME}:customers-service-qa-v${ MVN_VERSION}-b${BUILD_NUMBER}"
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     env.IMAGE_TAG_CUSTOMERS_SERVICE="${ECR_REGISTRY}/${APP_REPO_NAME}:customers-service-qa-v${ 
+MVN_VERSION}-b${BUILD_NUMBER}"
 bash: env.IMAGE_TAG_CUSTOMERS_SERVICE=/:customers-service-qa-v-b: No such file or directory
-]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     MVN_VERSION=sh(script:'. ${WORKSPACE}/spring-petclinic-discovery-server/target/maven-archi ver/pom.properties && echo $version', returnStdout:true).trim()
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     MVN_VERSION=sh(script:'. ${WORKSPACE}/spring-petclinic-discovery-server/target/maven-archi 
+ver/pom.properties && echo $version', returnStdout:true).trim()
 bash: syntax error near unexpected token `('
-]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     env.IMAGE_TAG_DISCOVERY_SERVER="${ECR_REGISTRY}/${APP_REPO_NAME}:discovery-server-qa-v${MV N_VERSION}-b${BUILD_NUMBER}"
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     env.IMAGE_TAG_DISCOVERY_SERVER="${ECR_REGISTRY}/${APP_REPO_NAME}:discovery-server-qa-v${MV 
+N_VERSION}-b${BUILD_NUMBER}"
 bash: env.IMAGE_TAG_DISCOVERY_SERVER=/:discovery-server-qa-v-b: No such file or directory
-]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     MVN_VERSION=sh(script:'. ${WORKSPACE}/spring-petclinic-hystrix-dashboard/target/maven-arch iver/pom.properties && echo $version', returnStdout:true).trim()
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     MVN_VERSION=sh(script:'. ${WORKSPACE}/spring-petclinic-hystrix-dashboard/target/maven-arch 
+iver/pom.properties && echo $version', returnStdout:true).trim()
 bash: syntax error near unexpected token `('
-]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     env.IMAGE_TAG_HYSTRIX_DASHBOARD="${ECR_REGISTRY}/${APP_REPO_NAME}:hystrix-dashboard-qa-v${ MVN_VERSION}-b${BUILD_NUMBER}"
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     env.IMAGE_TAG_HYSTRIX_DASHBOARD="${ECR_REGISTRY}/${APP_REPO_NAME}:hystrix-dashboard-qa-v${ 
+MVN_VERSION}-b${BUILD_NUMBER}"
 bash: env.IMAGE_TAG_HYSTRIX_DASHBOARD=/:hystrix-dashboard-qa-v-b: No such file or directory
-]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     MVN_VERSION=sh(script:'. ${WORKSPACE}/spring-petclinic-vets-service/target/maven-archiver/ pom.properties && echo $version', returnStdout:true).trim()
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     MVN_VERSION=sh(script:'. ${WORKSPACE}/spring-petclinic-vets-service/target/maven-archiver/ 
+pom.properties && echo $version', returnStdout:true).trim()
 bash: syntax error near unexpected token `('
-]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     env.IMAGE_TAG_VETS_SERVICE="${ECR_REGISTRY}/${APP_REPO_NAME}:vets-service-qa-v${MVN_VERSIO N}-b${BUILD_NUMBER}"
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     env.IMAGE_TAG_VETS_SERVICE="${ECR_REGISTRY}/${APP_REPO_NAME}:vets-service-qa-v${MVN_VERSIO 
+N}-b${BUILD_NUMBER}"
 bash: env.IMAGE_TAG_VETS_SERVICE=/:vets-service-qa-v-b: No such file or directory
-]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     MVN_VERSION=sh(script:'. ${WORKSPACE}/spring-petclinic-visits-service/target/maven-archive r/pom.properties && echo $version', returnStdout:true).trim()
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     MVN_VERSION=sh(script:'. ${WORKSPACE}/spring-petclinic-visits-service/target/maven-archive 
+r/pom.properties && echo $version', returnStdout:true).trim()
 bash: syntax error near unexpected token `('
-]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     env.IMAGE_TAG_VISITS_SERVICE="${ECR_REGISTRY}/${APP_REPO_NAME}:visits-service-qa-v${MVN_VE RSION}-b${BUILD_NUMBER}"
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     env.IMAGE_TAG_VISITS_SERVICE="${ECR_REGISTRY}/${APP_REPO_NAME}:visits-service-qa-v${MVN_VE 
+RSION}-b${BUILD_NUMBER}"
 bash: env.IMAGE_TAG_VISITS_SERVICE=/:visits-service-qa-v-b: No such file or directory
 ]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$                     env.IMAGE_TAG_GRAFANA_SERVICE="${ECR_REGISTRY}/${APP_REPO_NAME}:grafana-service"
 bash: env.IMAGE_TAG_GRAFANA_SERVICE=/:grafana-service: No such file or directory
@@ -106,12 +122,29 @@ bash: syntax error near unexpected token `}'
 bash: }git: command not found
 ]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$ git push https://github.com/eliferdemdevops/petclinic-microservices.git
 Enumerating objects: 6, done.
-Counting objects:  16% (1/6)Counting objects:  33% (2/6)Counting objects:  50% (3/6)Counting objects:  66% (4/6)Counting objects:  83% (5/6)Counting objects: 100% (6/6)Counting objects: 100% (6/6), done.
+Counting objects:  16% (1/6)
+Counting objects:  33% (2/6)
+Counting objects:  50% (3/6)
+Counting objects:  66% (4/6)
+Counting objects:  83% (5/6)
+Counting objects: 100% (6/6)
+Counting objects: 100% (6/6), done.
 Delta compression using up to 2 threads
-Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
-Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 1.41 KiB | 1.41 MiB/s, done.
+Compressing objects:  25% (1/4)
+Compressing objects:  50% (2/4)
+Compressing objects:  75% (3/4)
+Compressing objects: 100% (4/4)
+Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)
+Writing objects:  50% (2/4)
+Writing objects:  75% (3/4)
+Writing objects: 100% (4/4)
+Writing objects: 100% (4/4), 1.41 KiB | 1.41 MiB/s, done.
 Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+remote: Resolving deltas:   0% (0/2)[K
+remote: Resolving deltas:  50% (1/2)[K
+remote: Resolving deltas: 100% (2/2)[K
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
 remote: 
 remote: Create a pull request for 'feature/msp-21' on GitHub by visiting:[K
 remote:      https://github.com/eliferdemdevops/petclinic-microservices/pull/new/feature/msp-21[K
@@ -142,7 +175,13 @@ Fast-forward
 Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/eliferdemdevops/petclinic-microservices.git
    2abc6fa..879977a  release -> release
-]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$ [K[ec2-user@jenkins-server petclinic-microservices]$ [H[2J[ec2-user@jenkins-server petclinic-microservices]$ [K[ec2-user@jenkins-server petclinic-microservices]$ [K[ec2-user@jenkins-server petclinic-microservices]$ [K[ec2-user@jenkins-server petclinic-microservices]$ [K[ec2-user@jenkins-server petclinic-microservices]$ [K[ec2-user@jenkins-server petclinic-microservices]$ git add ,[K[K .
+]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$ 
+[K[ec2-user@jenkins-server petclinic-microservices]$ [H[2J[ec2-user@jenkins-server petclinic-microservices]$ 
+[K[ec2-user@jenkins-server petclinic-microservices]$ 
+[K[ec2-user@jenkins-server petclinic-microservices]$ 
+[K[ec2-user@jenkins-server petclinic-microservices]$ 
+[K[ec2-user@jenkins-server petclinic-microservices]$ 
+[K[ec2-user@jenkins-server petclinic-microservices]$ git add ,[K[K .
 ]0;ec2-user@jenkins-server:~/petclinic-microservices[ec2-user@jenkins-server petclinic-microservices]$ git commit ,[Km- [K[K[K-m "k[Kupdated"
 [release 631b842] updated
  2 files changed, 106 insertions(+), 1 deletion(-)
